@@ -108,7 +108,7 @@ int _tmain( int argc, TCHAR *argv[] )
       return (2);
    }
 
-   PrintCommState(dcb);       //  Output to console
+   PrintCommState(dcb);       //  Output to console Yes
 
    _tprintf (TEXT("Serial port %s successfully reconfigured.\n"), pcCommPort);
    return (0);
