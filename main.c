@@ -1,11 +1,11 @@
-//#include <stdio.h>
+/*#include <stdio.h>
 #include <gtk/gtk.h>
 
 int main(){
     printf("Hallo world Уманский Саша!");
 }
+*/
 
-/*
 #include <gtk/gtk.h> 
 
 static void on_activate (GtkApplication *app) {
@@ -25,4 +25,3 @@ int main (int argc, char *argv[]) {
   g_signal_connect (app, "activate", G_CALLBACK (on_activate), NULL);
   return g_application_run (G_APPLICATION (app), argc, argv);
 }
-*/
