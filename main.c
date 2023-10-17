@@ -47,7 +47,7 @@ int _tmain( int argc, TCHAR *argv[] )
    DCB dcb;
    HANDLE hCom;
    BOOL fSuccess;
-   TCHAR *pcCommPort = TEXT("COM4"); //  Most systems have a COM1 port  "\\\\.\\COM4"
+   TCHAR *pcCommPort = TEXT("COM2"); //  Most systems have a COM1 port  "\\\\.\\COM4"
 
    //  Open a handle to the specified com port.
    hCom = CreateFile( pcCommPort,
@@ -84,7 +84,7 @@ int _tmain( int argc, TCHAR *argv[] )
 
    //  Fill in some DCB values and set the com state: 
    //  57,600 bps, 8 data bits, no parity, and 1 stop bit.
-   dcb.BaudRate = CBR_9600;     //  baud rate
+   dcb.BaudRate = CBR_56000;     //  baud rate
    dcb.ByteSize = 8;             //  data size, xmit and rcv
    dcb.Parity   = NOPARITY;      //  parity bit
    dcb.StopBits = ONESTOPBIT;    //  stop bit

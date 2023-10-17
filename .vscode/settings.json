@@ -2,5 +2,6 @@
     "files.associations": {
         "gdk.h": "c",
         "gdkapplaunchcontext.h": "c"
-    }
+    },
+    "editor.fontSize": 15
 }
