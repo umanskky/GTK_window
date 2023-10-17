@@ -6,7 +6,7 @@ int main(){
 }
 */
 
-#include <gtk/gtk.h> 
+#include <gtk/gtk.h> // Подключение библиотеки GTK+
 
 static void on_activate (GtkApplication *app) {
   // Create a new window
