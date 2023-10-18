@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "gdk.h": "c",
-        "gdkapplaunchcontext.h": "c"
+        "gdkapplaunchcontext.h": "c",
+        "bluetoothapis.h": "c"
     },
     "editor.fontSize": 15
 }

@@ -41,6 +41,7 @@
                 "-lgraphene-1.0",
                 "-lglib-2.0",
                 "-lintl",
+                "-lbthprops",  // add new
                 "-lgobject-2.0",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
