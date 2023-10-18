@@ -4,6 +4,7 @@ https://learn.microsoft.com/en-us/windows/win32/devio/monitoring-communications-
 https://freevirtualserialports.com/screenshots  ---- Virtual Serial Port Bridge
 https://www.pololu.com/docs/0J73/15.6           ---- Example Serial Port C 
 https://www.google.co.uk/search?gcx=c&sourceid=chrome&ie=UTF-8&q=RS232+From+C+program#ip=1  ---- Google: RS232 From C program
+https://social.msdn.microsoft.com/Forums/en-US/bad452cb-4fc2-4a86-9b60-070b43577cc9/is-there-a-simple-example-desktop-programming-c-for-bluetooth-low-energy-devices?forum=wdk   --- Bluethoo console app
 
 
 
